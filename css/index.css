@@ -153,16 +153,20 @@ background-color: var(--magic-mint);
   text-align: center;
 }
 
+.info--section img {
+  width: 80%;
+  height: auto;
+  margin: 4vh auto;
+  box-sizing: border-box;
+}
+
+.info--section {
+  background-color: var(--spring-green);
+}
+
 /* Lions */
 #lions--section {
   background-image: url('/img/Animals/Lion/l1.jpg');
-}
-
-#lions--info img {
-  width: 80%;
-  height: auto;
-  margin: 4vh 2vw;
-  box-sizing: border-box;
 }
 
 /* Cobras */
