@@ -152,7 +152,7 @@ background-color: var(--magic-mint);
 
 /* Frogs */
 #frogs--section {
-  
+  background-image: url("/img/Animals/Frog/frog\ \(1\).jpg");
 }
 
 /* Eagles Section */
@@ -162,7 +162,7 @@ background-color: var(--magic-mint);
 
 /* Red Pandas */
 #red-panda--section {
-
+  background-image: url("/img/Animals/RedPanda/rp1.jpg");
 }
 
 /* About-Us Section */
