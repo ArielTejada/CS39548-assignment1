@@ -62,12 +62,12 @@
 }
 
 .bold {
-  font-size: var(--font-size3);
+  font-size: var(--font-size4);
   font-weight: 1000;
 }
 
 .less-bold {
-  font-size: var(--font-size2);
+  font-size: var(--font-size3);
   font-weight: 800;
 }
 
@@ -163,6 +163,26 @@ a, a:hover, a:focus, a:active {
 
 .page-padding {
   padding: 6vh 5vw;
+}
+
+.fun-facts {
+  font-size: var(--font-size2);
+  padding: 1rem;
+  width: 40%;
+  background-color: var(--spring-green);
+  border-radius: 5px;
+}
+
+.pos-left {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.pos-right {
+  position: absolute;
+  top: 15%;
+  right: 5%;
 }
 
 .large-img-section {
