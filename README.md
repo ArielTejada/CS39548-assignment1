@@ -3,4 +3,4 @@ Ariel Tejada
 
 Assignment 1 - Zoo.
 
-[Website link](https://arieltejada.github.io/CS39548-assignment1/)
+[Website link](https://arieltejada.github.io/CS39548-assignment1/index.html)
