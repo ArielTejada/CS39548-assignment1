@@ -199,16 +199,16 @@ a, a:hover, a:focus, a:active {
 
 /* Main Page */
 #main-page--section {
-background-image: url(/img/main/main1.jpg);
+background-image: url(../img/main/main1.jpg);
 background-color: var(--magic-mint);
 }
 
 #main--picture1 {
-  background-image: url(/img/main/zoo1.jpg);
+  background-image: url(../img/main/zoo1.jpg);
 }
 
 #main--picture2 {
-  background-image: url(/img/main/zoo2.jpg);
+  background-image: url(../img/main/zoo2.jpg);
 }
 
 .page-footer {
@@ -229,57 +229,57 @@ background-color: var(--magic-mint);
 
 /* Lions */
 #lions--section {
-  background-image: url(/img/animals/Lion/l1.jpg);
+  background-image: url(../img/animals/Lion/l1.jpg);
 }
 
 #lions--info {
-  background-image: url(/img/main/main4.jpg);
+  background-image: url(../img/main/main4.jpg);
   background-size: cover;
 }
 
 /* Cobras */
 #cobras--section {
-  background-image: url(/img/animals/KingCobra/cobra2.jpg);
+  background-image: url(../img/animals/KingCobra/cobra2.jpg);
 }
 
 #cobras--info {
-  background-image: url(/img/main/main3.jpg);
+  background-image: url(../img/main/main3.jpg);
   background-size: cover;
 }
 
 /* Frogs */
 #frogs--section {
-  background-image: url(/img/animals/Frog/frog6.jpg);
+  background-image: url(../img/animals/Frog/frog6.jpg);
 }
 
 #frogs--info {
-  background-image: url(/img/main/main2.jpg);
+  background-image: url(../img/main/main2.jpg);
   background-size: cover;
 }
 
 /* Eagles Section */
 #eagles--section {
-  background-image: url(/img/animals/BaldEagle/eagle4.jpg);
+  background-image: url(../img/animals/BaldEagle/eagle4.jpg);
 }
 
 #eagles--info {
-  background-image: url(/img/main/main5.jpg);
+  background-image: url(../img/main/main5.jpg);
   background-size: cover;
 }
 
 /* Red Pandas */
 #red-panda--section {
-  background-image: url(/img/animals/RedPanda/rp1.jpg);
+  background-image: url(../img/animals/RedPanda/rp1.jpg);
 }
 
 #red-pandas--info {
-  background-image: url(/img/main/main7.jpg);
+  background-image: url(../img/main/main7.jpg);
   background-size: cover;
 }
 
 /* About-Us Section */
 #about-us--section{
-  background-image: url(/img/main/zoo3.jpg);
+  background-image: url(../img/main/zoo3.jpg);
 }
 
 #mission-statement ul li{
