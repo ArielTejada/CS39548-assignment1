@@ -79,7 +79,10 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 1px solid black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -111,11 +114,18 @@ a, a:hover, a:focus, a:active {
   margin: 20px 0 20px 20px;
   list-style-type: none;
   align-self: center;
+  transition: transform 0.2s;
+}
+
+.nav-item:hover {
+  -webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .nav-item a:hover {
   transition-timing-function: ease-in;
-  transition: .5s;
+  transition: .75s;
+  transform: scale(1.5);
   color: #8cfaa9;
   text-shadow: 0 0 5px #b4fcc7;
 }
@@ -136,11 +146,26 @@ a, a:hover, a:focus, a:active {
   flex: 1;
 }
 
+.container-col p {
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid var(--green-ryb);
+  border-radius: 5px;
+  background-color: var(--green-ryb);
+  color: white;
+  transition: transform 0.2s;
+}
+
+.container-col p:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+}
+
 .page-padding {
   padding: 6vh 5vw;
 }
 
-.main-section {
+.large-img-section {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -178,11 +203,8 @@ background-color: var(--magic-mint);
   height: auto;
   margin: 4vh auto;
   box-sizing: border-box;
-  border: 5px solid #0074D9;
-}
-
-.info--section {
-  background-color: var(--spring-green);
+  border: 5px solid var(--green-ryb);
+  border-radius: 5px;
 }
 
 /* Lions */
@@ -190,9 +212,19 @@ background-color: var(--magic-mint);
   background-image: url('/img/Animals/Lion/l1.jpg');
 }
 
+#lions--info {
+  background-image: url("/img/Main/main\ \(4\).jpg");
+  background-size: cover;
+}
+
 /* Cobras */
 #cobras--section {
   background-image: url("/img/Animals/KingCobra/cobra\ \(2\).jpg");
+}
+
+#cobras--info {
+  background-image: url("/img/Main/main\ \(3\).jpg");
+  background-size: cover;
 }
 
 /* Frogs */
@@ -200,14 +232,29 @@ background-color: var(--magic-mint);
   background-image: url("/img/Animals/Frog/frog\ \(1\).jpg");
 }
 
+#frogs--info {
+  background-image: url("/img/Main/main2.jpg");
+  background-size: cover;
+}
+
 /* Eagles Section */
 #eagles--section {
   background-image: url("/img/Animals/BaldEagle/eagle\ \(4\).jpg");
 }
 
+#eagles--info {
+  background-image: url("/img/Main/main\ \(5\).jpg");
+  background-size: cover;
+}
+
 /* Red Pandas */
 #red-panda--section {
   background-image: url("/img/Animals/RedPanda/rp1.jpg");
+}
+
+#red-pandas--info {
+  background-image: url("/img/Main/main7.jpg");
+  background-size: cover;
 }
 
 /* About-Us Section */
