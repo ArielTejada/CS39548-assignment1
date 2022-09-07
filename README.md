@@ -1,5 +1,6 @@
 # zoo-starter-code
+Ariel Tejada
 
-This repository is the website starter code for Assignment 1 - Zoo.
+Assignment 1 - Zoo.
 
-[Website link](https://johnnylaicode.github.io/zoo-starter-code/)
+[Website link](https://arieltejada.github.io/CS39548-assignment1/)
